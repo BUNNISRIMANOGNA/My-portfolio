@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css1.css">
+</head>
+<body>
+
+    
+    <header>
+        <div class="logo" style="font-weight: bold;">Bunni Sri Manogna  (Web developer)</div>
+        <br/>
+        
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="darkModeToggle">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section id="about">
+        <div class="about-container">
+            <img src="C:\Users\lenovo\Downloads\WhatsApp Image 2025-03-05 at 12.46.53 AM.jpeg" alt="Profile Picture">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hi, I'm Bunni Manogna A passionate web developer with a love for design, animations, and interactivity.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvCJ11Rji98h-ur9sfUMVAraNNm9VvZAaUaQ&s" alt="Project 1">
+                <h3>Weapon Detection in Real time using CCTV</h3>
+                <p>The project focuses on detecting weapons in crowded areas using live CCTV footage to prevent potential crimes. Unlike existing models that analyze recorded videos, this system utilizes real-time streaming, providing faster detection and response. The process involves capturing live footage, converting it into frames, performing data preprocessing, and extracting features to identify weapons and individuals carrying them. Upon detection, a red bounding box is drawn around the individual, and an alert is sent to the nearest control center for immediate action.</p>
+            <div class="project">
+                <img src="data:image/png;base64,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" alt="Project 2">
+                <h3>Fraud detection in Banking Transactions</h3>
+                <p>The fraud detection system aims to identify fraudulent activity in real time, halting fraudulent transactions as soon as they occur. It focuses on minimizing false positives to ensure valid transactions aren't incorrectly flagged, preserving the user experience. The system is designed to be scalable and flexible to handle high transaction volumes and adapt to new fraud tactics. Additionally, using explainable AI algorithms promotes transparency by providing clear reasons for flagged transactions, which enhances user trust and supports regulatory compliance.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out via email or social media!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="https://github.com/manogna1402">GitHub</a> | <a href="https://www.linkedin.com/in/bunni-sri-manogna-patel-179573259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a> 
+        </div>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2025 Bunni Manogna. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
